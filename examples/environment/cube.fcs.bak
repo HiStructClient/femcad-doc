@@ -1,0 +1,24 @@
+
+
+a   := 0.70 
+b   := 1.00
+h   := 0.2
+
+vertex {v1} xyz -a/2 -b/2 0
+vertex {v2} xyz  a/2 -b/2 0
+vertex {v3} xyz  a/2  b/2 0
+vertex {v4} xyz -a/2  b/2 0
+
+vertex {v11} xyz -a/2 v1.Y h
+vertex {v12} xyz  a/2 v2.Y h
+vertex {v13} xyz  a/2 v3.Y h
+vertex {v14} xyz -a/2 v4.Y h
+
+
+curve {c1} filletedpoly radiusmultiplier 0 vertexes {v1} {v2} {v3} {v4} {v1} fillets 1 1 1 1 1 
+curve {c2} filletedpoly radiusmultiplier 0 vertexes {v11} {v12} {v13} {v14} {v11} fillets 1 1 1 1 1 
+
+area {a1} boundary curve {c1}
+area {a2} boundary curve {c2}
+
+volume {s1} prism {a1} {a2}

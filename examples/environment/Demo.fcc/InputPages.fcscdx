@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "General",
+    "HumanName": "Building",
+    "PageDescription": "General Description",
+    "ParameterDescriptionsIdentifier": "inputs",
+    "PageImageUrl": "conf.png",
+    "DefaultViewName": "viewGeometry",
+    "AdditionalViewNames": []
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "Views": [
+    {
+      "Name": "viewGeometry",
+      "HumanName": "Geometry",
+      "Description": "Overall geometry view",
+      "DrawSettingsFile": "..\\scene.fcsdrs",
+      "ProjectionSettingsFile": "..\\scene.fcsdrv",
+      "FcsModelFile": "..\\scene.fcs"
+    }
+  ],
+  "Drawings": [],
+  "NameBranchTogglesFile": "Views_NameBranchToggles.fcscdx"
+}

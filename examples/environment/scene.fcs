@@ -1,0 +1,148 @@
+
+cubeCls := cube{}
+
+gblock {gCube} gclass {cubeCls} lcs (GCS)
+
+itemFn := name, identifier => Fcs.Parameter.ItemString{
+   HumanName := name,
+   Identifier := identifier,
+   IsReadOnly := False,
+   IsHidden := False,
+}
+
+listFn := name, identifier, list => Fcs.Parameter.ItemList{
+   HumanName:= name,
+   Identifier := identifier,
+   List := Fcs.Parameter.ListType( list.Select( o => Fcs.Parameter.ListTypeOption{ 
+      Text     := o[ 0 ],
+      Key      := o[ 1 ],
+      TextKey  := ( o.Count >= 3 ) ? ( o[ 2 ] ) : ( "" ),
+      ImageUrl := ( o.Count >= 4 ) ? ( o[ 3 ] ) : ( "" ),
+   } ), "")
+}
+
+presetInput := listFn( "Preset", "preset", [
+   [ "None", 0 ],
+   [ "01", 1 ],
+   [ "02", 2 ],
+] )
+
+skyTypeInput := listFn( "Sky type", "skyType", [
+   [ "Dafault", "-" ],
+   [ "None", "none" ],
+   [ "Simple", "basic" ],
+   [ "With Sun", "sun" ],
+] )
+
+groundTypeInput := listFn( "Ground type", "groundType", [
+   [ "Dafault", "-" ],
+   [ "None", "none" ],
+   [ "Plain", "plain" ],
+] )
+
+objectsTypeInput := listFn( "Objects type", "objectType", [
+   [ "Dafault", "-" ],
+   [ "None", "none" ],
+   [ "Trees", "treesBasic" ],
+   [ "Cubes", "buildingsBasic" ],
+   [ "Model", "external" ],
+] )
+
+
+inputs := [
+   presetInput,
+   groundTypeInput,
+   skyTypeInput,
+   objectsTypeInput,
+]
+
+
+preset := 0
+groundType := "-"
+skyType := "-"
+objectType := "-"
+
+modifierOff := True
+
+env := {
+   preset := preset,
+
+   modifiers := ( []
+   + ( (groundType == "-") ? [] : [ { path := "ground.type",  value := groundType } ] )
+   + ( (skyType == "-")    ? [] : [ { path := "sky.type",     value := skyType    } ] )
+   + ( (objectType == "-") ? [] : [ { path := "objects.type", value := objectType } ] )
+   ),
+
+   ground:= { 
+      level := 0.5,
+      groundColor := { R := 150, G:= 150, B:= 200 },
+   },
+
+   objects := {
+      modelUrl := "trees/basic/01.json",
+   },
+   
+   # sky := { type := skyType },
+}
+
+
+envAllProperties := {
+
+   preset := 0, # 0-2
+
+   modifiers := [  # array of modifiers of properties
+      { path := "ground.level", value: -0.2 }
+   ],
+
+   ground := {
+      type := "plain", # options: "none", "plain"
+      groundColor := { R := 150, G:= 150, B:= 200 },
+      level := -0.1, # z ground level [m]
+   },
+
+   sky := {
+        type := "sun", # options: none, simple, sun
+
+        sunPosition := {
+            inclination := 45,
+            azimuth := 225,
+        },
+
+        positionFromLocation := { # only if no sun position
+            latitude := 49.820923,
+            longitude := 18.262524,
+
+            month := 7,
+            day := 1,
+            hour := 12,
+        },
+    },
+
+     objects := {
+        type := "sipleTrees",  # options: none, simpleTrees, simpleBuildings, external
+
+        density := 20,  # objects per hectare
+        range := 2000,  # in meters, 
+        # total count = density * range**2 / 1e4;
+
+        bBox := { min := { x := -5, y := -5 }, max := { x := 15, y := 15 } },
+        bBoxOffset := 5,  ## bounding box offset [m]
+
+        modelUrl := "", # url form external object
+    },
+
+    light := {
+        type := "sun", # options: basic01, sun
+
+        castShadows := False, # not supported for all light types
+    },
+
+    fog := {
+        type := "none", # options: none, linear
+
+        near := 5,
+        far := 1000,
+        color := { R := 150, G:= 150, B:= 200 },
+    },
+
+}

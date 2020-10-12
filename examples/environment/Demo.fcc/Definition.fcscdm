@@ -1,0 +1,16 @@
+{
+  "Description": "Demo env",
+  "HumanName": "Demo env",
+  "Example3DUrl": null,
+  "FcsScript": "..\\scene.fcs",
+  "Hidden": false,
+  "InfoUrl": null,
+  "NameFcc": "examples\\environment\\Demo.fcc",
+  "ParameterDescriptions": null,
+  "ParameterValues": null,
+  "ThumbnailUrl": null,
+  "EsaExport": "",
+  "ViewsFile": "Views.fcscdx",
+  "CmpMapFile": "CmpMap.fcscdx",
+  "ComponentPagesFile": "InputPages.fcscdx"
+}
