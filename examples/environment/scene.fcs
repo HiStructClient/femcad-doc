@@ -57,7 +57,7 @@ inputs := [
 ]
 
 
-preset := 0
+preset := 2
 groundType := "-"
 skyType := "-"
 objectType := "-"
@@ -81,17 +81,17 @@ env := {
    objects := {
       modelUrl := "trees/basic/01.json",
    },
-   
+
    # sky := { type := skyType },
 }
 
 
 envAllProperties := {
 
-   preset := 0, # 0-2
+   preset := 1, # 0-2
 
    modifiers := [  # array of modifiers of properties
-      { path := "ground.level", value: -0.2 }
+      { path := "ground.level", value := -0.2 }
    ],
 
    ground := {
@@ -119,7 +119,7 @@ envAllProperties := {
     },
 
      objects := {
-        type := "sipleTrees",  # options: none, simpleTrees, simpleBuildings, external
+        type := "sipleTrees",  # options: none, treesBasic, buildingsBasic, external
 
         density := 20,  # objects per hectare
         range := 2000,  # in meters, 
