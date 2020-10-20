@@ -79,10 +79,27 @@ env := {
    },
 
    objects := {
-      modelUrl := "trees/basic/01.json",
+      type := "buildingsBasic",
+   },
+}
+
+env2 := {
+   preset := preset,
+
+   modifiers := ( []
+   + ( (groundType == "-") ? [] : [ { path := "ground.type",  value := groundType } ] )
+   + ( (skyType == "-")    ? [] : [ { path := "sky.type",     value := skyType    } ] )
+   + ( (objectType == "-") ? [] : [ { path := "objects.type", value := objectType } ] )
+   ),
+
+   ground:= { 
+      level := 0.5,
+      #groundColor := { R := 150, G:= 150, B:= 200 },
    },
 
-   # sky := { type := skyType },
+   objects := {
+      type := "treesBasic",
+   },
 }
 
 
@@ -119,7 +136,7 @@ envAllProperties := {
     },
 
      objects := {
-        type := "sipleTrees",  # options: none, treesBasic, buildingsBasic, external
+        type := "treesBasic",  # options: none, treesBasic, buildingsBasic, external
 
         density := 20,  # objects per hectare
         range := 2000,  # in meters, 
@@ -128,7 +145,7 @@ envAllProperties := {
         bBox := { min := { x := -5, y := -5 }, max := { x := 15, y := 15 } },
         bBoxOffset := 5,  ## bounding box offset [m]
 
-        modelUrl := "", # url form external object
+        modelUrl := "trees/basic/01.json", # url form external object
     },
 
     light := {

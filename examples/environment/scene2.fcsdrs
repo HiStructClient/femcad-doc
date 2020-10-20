@@ -1,0 +1,5082 @@
+{
+  "Environment": {
+    "histructEnvironment" : "env2",
+    "grdBot": {
+      "knownColor": 87,
+      "name": null,
+      "state": 1,
+      "value": 0
+    },
+    "grdDraw": true,
+    "grdTop": {
+      "knownColor": 143,
+      "name": null,
+      "state": 1,
+      "value": 0
+    },
+    "light1": {
+      "ColorAmbient": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 4281479730
+        }
+      },
+      "ColorDiffuse": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "ColorSpecular": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "Light": 1,
+      "Position": {
+        "x": 10,
+        "y": 20,
+        "z": 30
+      },
+      "PositionHead": false
+    },
+    "light2": {
+      "ColorAmbient": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "ColorDiffuse": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "ColorSpecular": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "Light": 1,
+      "Position": {
+        "x": -10,
+        "y": 30,
+        "z": 20
+      },
+      "PositionHead": false
+    },
+    "light3": {
+      "ColorAmbient": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "ColorDiffuse": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "ColorSpecular": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "Light": 0,
+      "Position": {
+        "x": 10,
+        "y": -10,
+        "z": -10
+      },
+      "PositionHead": false
+    },
+    "light4": {
+      "ColorAmbient": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "ColorDiffuse": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "ColorSpecular": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "Light": 1,
+      "Position": {
+        "x": 0,
+        "y": 1,
+        "z": 1
+      },
+      "PositionHead": true
+    },
+    "lights": false
+  },
+  "Mesh": {
+    "HangingNodes": false,
+    "HangingPen": {
+      "Color": {
+        "knownColor": 38,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 10
+    },
+    "SupportingPen": {
+      "Color": {
+        "knownColor": 30,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 5
+    }
+  },
+  "Palette": {
+    "font": {
+      "ffam": "Arial Narrow",
+      "size": 8,
+      "style": 0
+    },
+    "maxV": 1,
+    "minV": 0,
+    "minmaxAuto": true,
+    "steps": 20,
+    "visible": true
+  },
+  "WorkPlane": {
+    "draw_axes": true,
+    "draw_grid": true
+  },
+  "assemblyDraw": false,
+  "deformationScale": 10,
+  "deformationScaleAmp": 10,
+  "drawGeometry": true,
+  "draw_boudarycond": true,
+  "draw_mesh": false,
+  "fluid_field": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawGeometry": true,
+    "drawMesh": false,
+    "color_scheme": {
+      "_borderPen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_trianglePen": {
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 849979817
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "degeneratedLoopPen": {
+        "Color": {
+          "knownColor": 167,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "freeLoopPen": {
+        "Color": {
+          "knownColor": 128,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "nodePen": {
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      }
+    },
+    "drawElementLabels": false,
+    "drawNodeLabels": false,
+    "elementLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 79,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "izol_type": {
+      "drawExtremes": false,
+      "drawExtremesLabels": false,
+      "drawNodalValues": false,
+      "graph_scale": 0,
+      "izol_type": 2,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "nodalValuesLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "nodeLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "drawvelocityvector": false,
+    "result": 3
+  },
+  "fluid_pressure": {
+    "filter": null,
+    "visible": true,
+    "_normalPen": {
+      "Color": {
+        "knownColor": 128,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 5
+    },
+    "_selectedPen": {
+      "Color": {
+        "knownColor": 94,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 5
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090471168
+      }
+    },
+    "selectedBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090190034
+      }
+    },
+    "sizeScale": 1
+  },
+  "fluid_traction": {
+    "filter": null,
+    "visible": true,
+    "_normalPen": {
+      "Color": {
+        "knownColor": 79,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 2
+    },
+    "_selectedPen": {
+      "Color": {
+        "knownColor": 80,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 2
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1073774592
+      }
+    },
+    "selectedBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1085144879
+      }
+    },
+    "sizeScale": 1,
+    "tractionScale": 1
+  },
+  "fluid_velocity": {
+    "filter": null,
+    "visible": true,
+    "_normalPen": {
+      "Color": {
+        "knownColor": 37,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 2
+    },
+    "_selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 2
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1073742079
+      }
+    },
+    "selectedBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1073807359
+      }
+    },
+    "sizeScale": 1,
+    "velocityScale": 1
+  },
+  "geometry_areas": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 40,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 683720896
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1353762014
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_selectedOffsetPen": {
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2159068382
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawOffsets": true,
+    "lcsSettings": {
+      "filter": null,
+      "visible": false,
+      "brushColorBy": 0,
+      "highlightedPen": {
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "inactivePen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "labels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 153,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 6,
+          "style": 0
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "normalBrush": {
+        "Alpha": 64,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 1086374080
+        }
+      },
+      "normalPen": {
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "penColorBy": 0,
+      "selectedBrush": {
+        "Alpha": 128,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 2164260863
+        }
+      },
+      "selectedPen": {
+        "Color": {
+          "knownColor": 48,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "axeXPen": {
+        "Color": {
+          "knownColor": 141,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 0
+      },
+      "axeYPen": {
+        "Color": {
+          "knownColor": 79,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 0
+      },
+      "axeZPen": {
+        "Color": {
+          "knownColor": 37,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 0
+      },
+      "place": {
+        "x": 0,
+        "y": 0
+      },
+      "size": 1
+    },
+    "naturalCoordinatesLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 52,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 1,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "onlyWires": false
+  },
+  "geometry_constraints": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 53,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_violatedPen": {
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1358888960
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_curveLCS": {
+    "filter": null,
+    "visible": false,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "axeXPen": {
+      "Color": {
+        "knownColor": 141,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 0
+    },
+    "axeYPen": {
+      "Color": {
+        "knownColor": 79,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 0
+    },
+    "axeZPen": {
+      "Color": {
+        "knownColor": 37,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 0
+    },
+    "place": {
+      "x": 0,
+      "y": 0
+    },
+    "size": 1
+  },
+  "geometry_curves": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_distributions": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 37,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 59,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_filletedpolys": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 37,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 59,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_gblocks": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_labels": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 1,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 2,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_solids": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_tractions": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 38,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 39,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "geometry_vertexLCS": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "axeXPen": {
+      "Color": {
+        "knownColor": 141,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 0
+    },
+    "axeYPen": {
+      "Color": {
+        "knownColor": 79,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 0
+    },
+    "axeZPen": {
+      "Color": {
+        "knownColor": 37,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 0
+    },
+    "place": {
+      "x": 0,
+      "y": 0
+    },
+    "size": 1
+  },
+  "geometry_vertices": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1086374080
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 68,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 128,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 2164260863
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "_parametrizedPen": {
+      "Color": {
+        "knownColor": 128,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "symbol3DSymbol": false,
+    "symbolSize": 0.01
+  },
+  "izoOnDefd": true,
+  "mech_beams": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawGeometry": true,
+    "drawMesh": true,
+    "cgrpah_type": {
+      "_graphBrush": {
+        "Alpha": 40,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 671141585
+        }
+      },
+      "_graphPen": {
+        "Color": {
+          "knownColor": 64,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "custom_graph_normal": false,
+      "drawGraph": false,
+      "graph_normal": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "graph_scale": 1,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": true,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "meanLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 68,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 0
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": true,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "color_scheme": {
+      "filter": null,
+      "visible": true,
+      "brushColorBy": 0,
+      "highlightedPen": {
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "inactivePen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "labels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 35,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 0
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "normalBrush": {
+        "Alpha": 64,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 1086374080
+        }
+      },
+      "normalPen": {
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "penColorBy": 0,
+      "selectedBrush": {
+        "Alpha": 128,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 2164260863
+        }
+      },
+      "selectedPen": {
+        "Color": {
+          "knownColor": 48,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_borderPen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_trianglePen": {
+        "Color": {
+          "knownColor": 72,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "freeLoopPen": {
+        "Color": {
+          "knownColor": 128,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "nodePen": {
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      }
+    },
+    "displayCssCentral": false,
+    "displayCssInertia": false,
+    "displayCssPrincipal": false,
+    "displayCssUser": false,
+    "displayHinges": false,
+    "displayLcs": false,
+    "displayLcsBeamCentral": false,
+    "displayLcsBeamPrincipal": false,
+    "displaySurface": true,
+    "displaySystemLine": false,
+    "hingeSize": 0.02,
+    "izol_type": {
+      "drawExtremes": false,
+      "drawExtremesLabels": false,
+      "drawNodalValues": false,
+      "graph_scale": 0,
+      "izol_type": 2,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "nodalValuesLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "meshDefd": true,
+    "result": 44,
+    "resultsOn": 0
+  },
+  "mech_load": {
+    "filter": null,
+    "visible": true,
+    "_normalPen": {
+      "Color": {
+        "knownColor": 79,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_selectedPen": {
+      "Color": {
+        "knownColor": 105,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1073774592
+      }
+    },
+    "selectedBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1077071154
+      }
+    },
+    "sizeScale": 1,
+    "AreaLoadDisplay": 1,
+    "LoadCase": null,
+    "forceSize": 1,
+    "forcepaSize": 1,
+    "forceplSize": 1,
+    "izol_type": null,
+    "lineDivisions": 8,
+    "loadLabels": null,
+    "loadScale": 1,
+    "momentSize": 1,
+    "momentplSize": 1
+  },
+  "mech_planes": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawGeometry": true,
+    "drawMesh": false,
+    "color_scheme": {
+      "_borderPen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_trianglePen": {
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 849979817
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "degeneratedLoopPen": {
+        "Color": {
+          "knownColor": 167,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "freeLoopPen": {
+        "Color": {
+          "knownColor": 128,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "nodePen": {
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      }
+    },
+    "drawElementLabels": false,
+    "drawNodeLabels": false,
+    "elementLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 79,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "izol_type": {
+      "drawExtremes": false,
+      "drawExtremesLabels": false,
+      "drawNodalValues": false,
+      "graph_scale": 0,
+      "izol_type": 2,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "nodalValuesLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "nodeLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "izoOnDefd": true,
+    "meshDefd": true,
+    "result": 23,
+    "stressCompColor": {
+      "Color": {
+        "knownColor": 141,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "stressTensColor": {
+      "Color": {
+        "knownColor": 37,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "mech_plates": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawGeometry": true,
+    "drawMesh": false,
+    "color_scheme": {
+      "_borderPen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_trianglePen": {
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 849979817
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "degeneratedLoopPen": {
+        "Color": {
+          "knownColor": 167,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "freeLoopPen": {
+        "Color": {
+          "knownColor": 128,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "nodePen": {
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      }
+    },
+    "drawElementLabels": false,
+    "drawNodeLabels": false,
+    "elementLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 79,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "izol_type": {
+      "drawExtremes": false,
+      "drawExtremesLabels": false,
+      "drawNodalValues": false,
+      "graph_scale": 0,
+      "izol_type": 2,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "nodalValuesLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "nodeLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "izoOnDefd": true,
+    "meshDefd": true,
+    "result": 23,
+    "stressCompColor": {
+      "knownColor": 141,
+      "name": null,
+      "state": 1,
+      "value": 0
+    },
+    "stressTensColor": {
+      "knownColor": 37,
+      "name": null,
+      "state": 1,
+      "value": 0
+    }
+  },
+  "mech_sections": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawGeometry": true,
+    "drawMesh": true,
+    "cgrpah_type": {
+      "_graphBrush": {
+        "Alpha": 40,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 671141585
+        }
+      },
+      "_graphPen": {
+        "Color": {
+          "knownColor": 64,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "custom_graph_normal": false,
+      "drawGraph": false,
+      "graph_normal": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "graph_scale": 1,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": true,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "meanLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 68,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 0
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": true,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "color_scheme": {
+      "filter": null,
+      "visible": true,
+      "brushColorBy": 0,
+      "highlightedPen": {
+        "Color": {
+          "knownColor": 164,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "inactivePen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "labels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 35,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 0
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "normalBrush": {
+        "Alpha": 64,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 1086374080
+        }
+      },
+      "normalPen": {
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "penColorBy": 0,
+      "selectedBrush": {
+        "Alpha": 128,
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 2164260863
+        }
+      },
+      "selectedPen": {
+        "Color": {
+          "knownColor": 48,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_borderPen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_trianglePen": {
+        "Color": {
+          "knownColor": 72,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "freeLoopPen": {
+        "Color": {
+          "knownColor": 128,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "nodePen": {
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      }
+    },
+    "displayCssCentral": false,
+    "displayCssInertia": false,
+    "displayCssPrincipal": false,
+    "displayCssUser": false,
+    "displayHinges": false,
+    "displayLcs": false,
+    "displayLcsBeamCentral": false,
+    "displayLcsBeamPrincipal": false,
+    "displaySurface": true,
+    "displaySystemLine": false,
+    "hingeSize": 0.02,
+    "izol_type": {
+      "drawExtremes": false,
+      "drawExtremesLabels": false,
+      "drawNodalValues": false,
+      "graph_scale": 0,
+      "izol_type": 2,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "nodalValuesLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "result": 44
+  },
+  "mech_supp": {
+    "filter": null,
+    "visible": true,
+    "_normalPen": {
+      "Color": {
+        "knownColor": 141,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "_selectedPen": {
+      "Color": {
+        "knownColor": 94,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090453504
+      }
+    },
+    "selectedBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090190034
+      }
+    },
+    "sizeScale": 1,
+    "MarkSize": 0.1,
+    "reactionLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 141,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": true,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 1
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "result": 77
+  },
+  "resultMonitors": "",
+  "result_field": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawGeometry": true,
+    "drawMesh": false,
+    "color_scheme": {
+      "_borderPen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_trianglePen": {
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 849979817
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "degeneratedLoopPen": {
+        "Color": {
+          "knownColor": 167,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "freeLoopPen": {
+        "Color": {
+          "knownColor": 128,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "nodePen": {
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      }
+    },
+    "drawElementLabels": false,
+    "drawNodeLabels": false,
+    "elementLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 79,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "izol_type": {
+      "drawExtremes": false,
+      "drawExtremesLabels": false,
+      "drawNodalValues": false,
+      "graph_scale": 0,
+      "izol_type": 2,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "nodalValuesLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "nodeLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "FactorizationError": false,
+    "_borderPen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_trianglePen": {
+      "Color": {
+        "knownColor": 72,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "deformationPen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "freeLoopPen": {
+      "Color": {
+        "knownColor": 128,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "nodePen": {
+      "Color": {
+        "knownColor": 35,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    }
+  },
+  "sleeptime": 20,
+  "stepsize": 0.06,
+  "stressScale": 0.0003,
+  "therm_field": {
+    "filter": null,
+    "visible": true,
+    "brushColorBy": 0,
+    "highlightedPen": {
+      "Color": {
+        "knownColor": 164,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "inactivePen": {
+      "Color": {
+        "knownColor": 78,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "labels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 153,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 6,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "normalBrush": {
+      "Alpha": 30,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 515948736
+      }
+    },
+    "normalPen": {
+      "Color": {
+        "knownColor": 153,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "penColorBy": 0,
+    "selectedBrush": {
+      "Alpha": 255,
+      "Color": {
+        "knownColor": 165,
+        "name": null,
+        "state": 1,
+        "value": 0
+      }
+    },
+    "selectedPen": {
+      "Color": {
+        "knownColor": 48,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "_drawEdges": true,
+    "_drawOffsetBox": false,
+    "_fillAreas": true,
+    "_offsetPen": {
+      "Color": {
+        "knownColor": 95,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 1
+    },
+    "drawGeometry": true,
+    "drawMesh": false,
+    "color_scheme": {
+      "_borderPen": {
+        "Color": {
+          "knownColor": 78,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "_trianglePen": {
+        "Color": {
+          "knownColor": 0,
+          "name": null,
+          "state": 2,
+          "value": 849979817
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      },
+      "degeneratedLoopPen": {
+        "Color": {
+          "knownColor": 167,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "freeLoopPen": {
+        "Color": {
+          "knownColor": 128,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 2
+      },
+      "nodePen": {
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "DashScale": 1,
+        "DashSpaceRatio": 0.5,
+        "Width": 1
+      }
+    },
+    "drawElementLabels": false,
+    "drawNodeLabels": false,
+    "elementLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 79,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "izol_type": {
+      "drawExtremes": false,
+      "drawExtremesLabels": false,
+      "drawNodalValues": false,
+      "graph_scale": 0,
+      "izol_type": 2,
+      "maximumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 141,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "minimumLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      },
+      "nodalValuesLabels": {
+        "brush": {
+          "Alpha": 255,
+          "Color": {
+            "knownColor": 37,
+            "name": null,
+            "state": 1,
+            "value": 0
+          }
+        },
+        "draw": false,
+        "font": {
+          "ffam": "Arial",
+          "size": 8,
+          "style": 1
+        },
+        "format": {
+          "alignment": 0,
+          "backgroundFill": 0,
+          "backgroundFillColor": {
+            "knownColor": 27,
+            "name": null,
+            "state": 1,
+            "value": 0
+          },
+          "borderFactor": 1.5,
+          "borderVisible": false,
+          "doubleSided": false,
+          "fontMetric": 0,
+          "lineAlignment": 0,
+          "lineSpacing": 1,
+          "offsetZ": 0
+        },
+        "formatString": null
+      }
+    },
+    "nodeLabels": {
+      "brush": {
+        "Alpha": 255,
+        "Color": {
+          "knownColor": 35,
+          "name": null,
+          "state": 1,
+          "value": 0
+        }
+      },
+      "draw": false,
+      "font": {
+        "ffam": "Arial",
+        "size": 8,
+        "style": 0
+      },
+      "format": {
+        "alignment": 0,
+        "backgroundFill": 0,
+        "backgroundFillColor": {
+          "knownColor": 27,
+          "name": null,
+          "state": 1,
+          "value": 0
+        },
+        "borderFactor": 1.5,
+        "borderVisible": false,
+        "doubleSided": false,
+        "fontMetric": 0,
+        "lineAlignment": 0,
+        "lineSpacing": 1,
+        "offsetZ": 0
+      },
+      "formatString": null
+    },
+    "fluxScale": 1,
+    "result": 1
+  },
+  "therm_heat_source": {
+    "filter": null,
+    "visible": true,
+    "_normalPen": {
+      "Color": {
+        "knownColor": 127,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "_selectedPen": {
+      "Color": {
+        "knownColor": 103,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090495744
+      }
+    },
+    "selectedBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090519008
+      }
+    },
+    "sizeScale": 1
+  },
+  "therm_temp": {
+    "filter": null,
+    "visible": true,
+    "_normalPen": {
+      "Color": {
+        "knownColor": 141,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "_selectedPen": {
+      "Color": {
+        "knownColor": 94,
+        "name": null,
+        "state": 1,
+        "value": 0
+      },
+      "DashScale": 1,
+      "DashSpaceRatio": 0.5,
+      "Width": 3
+    },
+    "normalBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090453504
+      }
+    },
+    "selectedBrush": {
+      "Alpha": 64,
+      "Color": {
+        "knownColor": 0,
+        "name": null,
+        "state": 2,
+        "value": 1090190034
+      }
+    },
+    "sizeScale": 1
+  }
+}
