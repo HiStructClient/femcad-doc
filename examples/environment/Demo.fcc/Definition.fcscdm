@@ -2,7 +2,7 @@
   "Description": "Demo env",
   "HumanName": "Demo env",
   "Example3DUrl": null,
-  "FcsScript": "..\\scene.fcs",
+  "FcsScript": "main.fcs",
   "Hidden": false,
   "InfoUrl": null,
   "NameFcc": "examples\\environment\\Demo.fcc",
